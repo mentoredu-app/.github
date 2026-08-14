@@ -132,8 +132,8 @@ http://localhost:8080/actuator/health
 ### Alternativa sin Docker
 
 ```bash
-# Requiere una instancia de PostgreSQL 16 activa y configurada en .env
-./mvnw spring-boot:run
+# Requiere una instancia de PostgreSQL 16 activa y configurada en .env, y Maven instalado
+mvn spring-boot:run
 ```
 
 ---
